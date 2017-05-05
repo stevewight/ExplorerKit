@@ -8,21 +8,23 @@
 
 import UIKit
 
-protocol EKClientDelegate {
+public protocol EKClientDelegate {
     func clientExploreComplete()
     func clientSearchComplete()
 }
 
-class EKClient: NSObject, VenueSearchDelegate, VenueExploreDelegate {
+public class EKClient: NSObject, VenueSearchDelegate, VenueExploreDelegate {
 
-    var clientID:String!
-    var clientSecret:String!
-    var version:String!
-    var location:String!
-    var venues = [Venue]()
-    var delegate:EKClientDelegate!
+    public var clientID:String!
+    public var clientSecret:String!
+    public var version:String!
+    public var location:String!
+    public var venues = [Venue]()
+    public var delegate:EKClientDelegate!
     
-    init(clientID:String,clientSecret:String,version:String) {
+    override public init() { super.init() }
+    
+    public init(clientID:String,clientSecret:String,version:String) {
         super.init()
         self.clientID = clientID
         self.clientSecret = clientSecret

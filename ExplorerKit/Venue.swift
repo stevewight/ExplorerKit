@@ -8,14 +8,14 @@
 
 import UIKit
 
-class Venue: NSObject {
+public class Venue: NSObject {
 
-    var id:String = ""
-    var name:String = ""
-    var url:String = ""
-    var isVerified:Bool = false
-    var categories = [VenueCategory]()
-    var location = VenueLocation()
+    public var id:String = ""
+    public var name:String = ""
+    public var url:String = ""
+    public var isVerified:Bool = false
+    public var categories = [VenueCategory]()
+    public var location = VenueLocation()
     
     init?(json:[String:AnyObject]) {
         super.init()

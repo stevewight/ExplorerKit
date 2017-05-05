@@ -8,18 +8,18 @@
 
 import UIKit
 
-class VenueLocation: NSObject {
+public class VenueLocation: NSObject {
     
     let METERS_HOUR_WALKING = 5000
 
-    var state:String = ""
-    var city:String = ""
-    var postalCode:String = ""
-    var country:String = ""
-    var countryCode = ""
-    var lat:Double = 0.0
-    var lng:Double = 0.0
-    var distance:Int = 0
+    public var state:String = ""
+    public var city:String = ""
+    public var postalCode:String = ""
+    public var country:String = ""
+    public var countryCode = ""
+    public var lat:Double = 0.0
+    public var lng:Double = 0.0
+    public var distance:Int = 0
     
     override init() { super.init() }
     

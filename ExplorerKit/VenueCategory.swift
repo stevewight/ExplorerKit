@@ -8,14 +8,14 @@
 
 import UIKit
 
-class VenueCategory: NSObject {
+public class VenueCategory: NSObject {
 
-    var id:String = ""
-    var name:String = ""
-    var pluralName:String = ""
-    var shortName:String = ""
-    var icon = [String:String]()
-    var isPrimary:Bool = false
+    public var id:String = ""
+    public var name:String = ""
+    public var pluralName:String = ""
+    public var shortName:String = ""
+    public var icon = [String:String]()
+    public var isPrimary:Bool = false
     
     init?(json:[String:AnyObject]) {
         super.init()
