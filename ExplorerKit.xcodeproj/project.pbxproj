@@ -18,6 +18,7 @@
 		AAAE36411EBBB4FE004608BD /* VenueCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAE36381EBBB4FE004608BD /* VenueCategory.swift */; };
 		AAAE36561EC24CAB004608BD /* VenueHours.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAE36551EC24CAB004608BD /* VenueHours.swift */; };
 		AAAE36581EC24EA4004608BD /* VenuePrice.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAE36571EC24EA4004608BD /* VenuePrice.swift */; };
+		AAAE365A1EC277AE004608BD /* VenueStats.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAE36591EC277AE004608BD /* VenueStats.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		AAAE36381EBBB4FE004608BD /* VenueCategory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VenueCategory.swift; sourceTree = "<group>"; };
 		AAAE36551EC24CAB004608BD /* VenueHours.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VenueHours.swift; sourceTree = "<group>"; };
 		AAAE36571EC24EA4004608BD /* VenuePrice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VenuePrice.swift; sourceTree = "<group>"; };
+		AAAE36591EC277AE004608BD /* VenueStats.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VenueStats.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 				AAAE36381EBBB4FE004608BD /* VenueCategory.swift */,
 				AAAE36551EC24CAB004608BD /* VenueHours.swift */,
 				AAAE36571EC24EA4004608BD /* VenuePrice.swift */,
+				AAAE36591EC277AE004608BD /* VenueStats.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -178,6 +181,7 @@
 				AAAE363D1EBBB4FE004608BD /* VenueFactory.swift in Sources */,
 				AAAE363C1EBBB4FE004608BD /* VenueSearch.swift in Sources */,
 				AAAE363F1EBBB4FE004608BD /* VenueLocation.swift in Sources */,
+				AAAE365A1EC277AE004608BD /* VenueStats.swift in Sources */,
 				AAAE36391EBBB4FE004608BD /* EKClient.swift in Sources */,
 				AAAE363A1EBBB4FE004608BD /* APIBase.swift in Sources */,
 				AAAE36411EBBB4FE004608BD /* VenueCategory.swift in Sources */,

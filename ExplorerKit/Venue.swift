@@ -19,6 +19,7 @@ public class Venue: NSObject {
     public var location = VenueLocation()
     public var hours = VenueHours()
     public var price = VenuePrice()
+    public var stats = VenueStats()
     
     init?(json:[String:AnyObject]) {
         super.init()
@@ -53,6 +54,10 @@ public class Venue: NSObject {
         
         if let newPrice = json["price"] as? [String:AnyObject] {
             price = VenuePrice(json: newPrice)!
+        }
+        
+        if let newStats = json["stats"] as? [String:AnyObject] {
+            stats = VenueStats(json: newStats)!
         }
         
         if let newCategories = json["categories"] as? [AnyObject] {
