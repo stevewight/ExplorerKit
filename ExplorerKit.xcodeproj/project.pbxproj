@@ -16,6 +16,8 @@
 		AAAE363F1EBBB4FE004608BD /* VenueLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAE36361EBBB4FE004608BD /* VenueLocation.swift */; };
 		AAAE36401EBBB4FE004608BD /* Venue.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAE36371EBBB4FE004608BD /* Venue.swift */; };
 		AAAE36411EBBB4FE004608BD /* VenueCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAE36381EBBB4FE004608BD /* VenueCategory.swift */; };
+		AAAE36561EC24CAB004608BD /* VenueHours.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAE36551EC24CAB004608BD /* VenueHours.swift */; };
+		AAAE36581EC24EA4004608BD /* VenuePrice.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAE36571EC24EA4004608BD /* VenuePrice.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		AAAE36361EBBB4FE004608BD /* VenueLocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VenueLocation.swift; sourceTree = "<group>"; };
 		AAAE36371EBBB4FE004608BD /* Venue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Venue.swift; sourceTree = "<group>"; };
 		AAAE36381EBBB4FE004608BD /* VenueCategory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VenueCategory.swift; sourceTree = "<group>"; };
+		AAAE36551EC24CAB004608BD /* VenueHours.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VenueHours.swift; sourceTree = "<group>"; };
+		AAAE36571EC24EA4004608BD /* VenuePrice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VenuePrice.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +84,8 @@
 				AAAE36361EBBB4FE004608BD /* VenueLocation.swift */,
 				AAAE36371EBBB4FE004608BD /* Venue.swift */,
 				AAAE36381EBBB4FE004608BD /* VenueCategory.swift */,
+				AAAE36551EC24CAB004608BD /* VenueHours.swift */,
+				AAAE36571EC24EA4004608BD /* VenuePrice.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -166,7 +172,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				AAAE363B1EBBB4FE004608BD /* VenueExplore.swift in Sources */,
+				AAAE36561EC24CAB004608BD /* VenueHours.swift in Sources */,
 				AAAE36401EBBB4FE004608BD /* Venue.swift in Sources */,
+				AAAE36581EC24EA4004608BD /* VenuePrice.swift in Sources */,
 				AAAE363D1EBBB4FE004608BD /* VenueFactory.swift in Sources */,
 				AAAE363C1EBBB4FE004608BD /* VenueSearch.swift in Sources */,
 				AAAE363F1EBBB4FE004608BD /* VenueLocation.swift in Sources */,
